@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+}
+body{
+  margin: 0px;
+  font-family: "Rubik",sans-serif;
+}
+
+#main-img img{
+    height: 35px;
+}
+#cart img{
+    height: 35px;
+    
+}
+#cart {
+  display: flex;
+}
+
+#cart h2{
+    font-weight: 450;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 20px;
+    left: 20px;
+  
+}
+
+#main1{
+    background-image:url(./assets/kw-background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:350px;
+}
+#Text {
+    color: white;
+    margin-left: 5%;
+    padding-top: 5%;
+}
+
+.card-1 img{
+    width: 200px;
+    height: 325px;
+}
+.card-1 {
+    border: 10px solid white;
+    width: 25%;
+
+}
+#books-section{
+    display: flex;
+}
+.button {
+    display: flex;
+    background-color:red;
+    width: 55px;
+    height: 45px;
+    margin-left: 165px;
+    margin-top: -35px;
+    border-radius: 8px;
+
+}
+.button img{
+    width: 25px;
+    height: 35px;
+
+}
+.button h4{
+    margin-top: 7px;
+}
+
+#games-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-2{
+    width:20%;
+}
+
+.card-2 img{
+    width: 100%;
+}
+
+#crafts-section{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.card-3{
+    width: 20%;
+}
+
+.card-3 img{
+    width: 100%;
+}
+.main{
+    margin-top: 120px;
+}
+
+@media (max-width: 600px) {
+    #books-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-1 {
+      width: 250px;
+    }
+    #games-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-2 {
+      width: 200px;
+    }
+    #crafts-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-3 {
+      width: 200px;
+    }
+  }
+
+  footer {
+    margin-top: 110px;
+    background-color: black;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  #lastt  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  footer  h5 {
+    background-color: black;
+    color: white;
+    margin: 0px;
+  }
+  
+  footer  h2 {
+    margin-bottom: 0px;
+  }
+  
+  #last {
+    padding-right: 20px;
+  }
+  
+  #lastt {
+    padding-left: 20px;
+  }
+  
+  #lastt h3{
+    font-size: 40px;
+    margin-bottom: 10%;
+  }
+  #last h2{
+    font-size: 25px;
+    margin-bottom: 12%;
+  }
+  #last h5{
+    margin-bottom: 10%;
+
+  }
